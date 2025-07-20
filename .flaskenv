@@ -1,0 +1,3 @@
+FLASK_APP=dash_mcp_showcase:app
+FLASK_DEBUG=1
+FLASK_RUN_PORT=8080

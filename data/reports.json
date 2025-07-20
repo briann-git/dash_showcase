@@ -1,0 +1,284 @@
+{
+    "2025": {
+        "Q1": {
+            "title": "Sales Analysis Report – Q1 2025",
+            "date": "2025-04-15",
+            "summary": {
+                "total_sales": "$1.5M",
+                "top_region": "Europe",
+                "best_selling_product": "MegaGadget Pro"
+            },
+            "top_products": [
+                { "product": "MegaGadget Pro", "units_sold": 15000, "revenue": "$450,000" },
+                { "product": "UltraWidget 3000", "units_sold": 12000, "revenue": "$360,000" },
+                { "product": "NanoDevice X", "units_sold": 10000, "revenue": "$300,000" },
+                { "product": "SmartTool Z", "units_sold": 9500, "revenue": "$285,000" },
+                { "product": "EcoWidget Mini", "units_sold": 9000, "revenue": "$270,000" }
+            ],
+            "charts": [
+                {
+                    "title": "Sales by Region",
+                    "filename": "charts/sales_by_region.png",
+                    "description": "Bar chart showing total sales by region."
+                }
+            ],
+            "notes": [
+                "Data sourced from internal CRM",
+                "Analysis performed on April 15, 2025"
+            ]
+        },
+        "Q2": {
+            "title": "Sales Analysis Report – Q2 2025",
+            "date": "2025-07-15",
+            "summary": {
+                "total_sales": "$1.8M",
+                "top_region": "North America",
+                "best_selling_product": "UltraWidget 3000"
+            },
+            "top_products": [
+                { "product": "UltraWidget 3000", "units_sold": 18000, "revenue": "$540,000" },
+                { "product": "MegaGadget Pro", "units_sold": 16000, "revenue": "$480,000" },
+                { "product": "SmartTool Z", "units_sold": 14000, "revenue": "$420,000" },
+                { "product": "NanoDevice X", "units_sold": 13000, "revenue": "$390,000" },
+                { "product": "EcoWidget Mini", "units_sold": 12000, "revenue": "$360,000" }
+            ],
+            "charts": [
+                {
+                    "title": "Sales by Region",
+                    "filename": "charts/sales_by_region_q2.png",
+                    "description": "Bar chart showing total sales by region."
+                }
+            ],
+            "notes": [
+                "Data sourced from internal CRM",
+                "Analysis performed on July 15, 2025"
+            ]
+        },
+        
+        "Q3": {
+            "title": "Sales Analysis Report – Q3 2025",
+            "date": "2025-10-15",
+            "summary": {
+                "total_sales": "$2.0M",
+                "top_region": "Asia",
+                "best_selling_product": "MegaGadget Pro"
+            },
+            "top_products": [
+                { "product": "MegaGadget Pro", "units_sold": 20000, "revenue": "$600,000" },
+                { "product": "UltraWidget 3000", "units_sold": 18000, "revenue": "$540,000" },
+                { "product": "SmartTool Z", "units_sold": 16000, "revenue": "$480,000" },
+                { "product": "NanoDevice X", "units_sold": 15000, "revenue": "$450,000" },
+                { "product": "EcoWidget Mini", "units_sold": 14000, "revenue": "$420,000" }
+            ],
+            "charts": [
+                {
+                    "title": "Sales by Region",
+                    "filename": "charts/sales_by_region_q3.png",
+                    "description": "Bar chart showing total sales by region."
+                }
+            ],
+            "notes": [
+                "Data sourced from internal CRM",
+                "Analysis performed on October 15, 2025"
+            ]
+        },
+
+        "Q4": {
+            "title": "Sales Analysis Report – Q4 2025",
+            "date": "2025-12-15",
+            "summary": {
+                "total_sales": "$2.5M",
+                "top_region": "North America",
+                "best_selling_product": "UltraWidget 3000"
+            },
+            "top_products": [
+                { "product": "UltraWidget 3000", "units_sold": 22000, "revenue": "$660,000" },
+                { "product": "MegaGadget Pro", "units_sold": 20000, "revenue": "$600,000" },
+                { "product": "SmartTool Z", "units_sold": 18000, "revenue": "$540,000" },
+                { "product": "NanoDevice X", "units_sold": 17000, "revenue": "$510,000" },
+                { "product": "EcoWidget Mini", "units_sold": 16000, "revenue": "$480,000" }
+            ],
+            "charts": [
+                {
+                    "title": "Sales by Region",
+                    "filename": "charts/sales_by_region_q4.png",
+                    "description": "Bar chart showing total sales by region."
+                }
+            ],
+            "notes": [
+                "Data sourced from internal CRM",
+                "Analysis performed on December 15, 2025"
+            ]
+        }
+
+    },
+
+    "2024": {
+        "Q1": {
+            "title": "Sales Analysis Report – Q1 2024",
+            "date": "2024-04-15",
+            "summary": {
+                "total_sales": "$1.2M",
+                "top_region": "Europe",
+                "best_selling_product": "MegaGadget Pro"
+            },
+            "top_products": [
+                { "product": "MegaGadget Pro", "units_sold": 12000, "revenue": "$360,000" },
+                { "product": "UltraWidget 3000", "units_sold": 10000, "revenue": "$300,000" },
+                { "product": "NanoDevice X", "units_sold": 8000, "revenue": "$240,000" },
+                { "product": "SmartTool Z", "units_sold": 7500, "revenue": "$225,000" },
+                { "product": "EcoWidget Mini", "units_sold": 7000, "revenue": "$210,000" }
+            ],
+            "charts": [
+                {
+                    "title": "Sales by Region",
+                    "filename": "charts/sales_by_region_q1_2024.png",
+                    "description": "Bar chart showing total sales by region."
+                }
+            ],
+            "notes": [
+                "Data sourced from internal CRM",
+                "Analysis performed on April 15, 2024"
+            ]
+        },
+        "Q2": {
+            "title": "Sales Analysis Report – Q2 2024",
+            "date": "2024-07-15",
+            "summary": {
+                "total_sales": "$1.5M",
+                "top_region": "North America",
+                "best_selling_product": "UltraWidget 3000"
+            },
+            "top_products": [
+                { "product": "UltraWidget 3000", "units_sold": 15000, "revenue": "$450,000" },
+                { "product": "MegaGadget Pro", "units_sold": 14000, "revenue": "$420,000" },
+                { "product": "SmartTool Z", "units_sold": 13000, "revenue": "$390,000" },
+                { "product": "NanoDevice X", "units_sold": 12000, "revenue": "$360,000" },
+                { "product": "EcoWidget Mini", "units_sold": 11000, "revenue": "$330,000" }
+            ],
+            "charts": [
+                {
+                    "title": "Sales by Region",
+                    "filename": "charts/sales_by_region_q2_2024.png",
+                    "description": "Bar chart showing total sales by region."
+                }
+            ],
+            "notes": [
+                "Data sourced from internal CRM",
+                "Analysis performed on July 15, 2024"
+            ]
+        }, 
+        "Q3": {
+            "title": "Sales Analysis Report – Q3 2024",
+            "date": "2024-10-15",
+            "summary": {
+                "total_sales": "$1.8M",
+                "top_region": "Asia",
+                "best_selling_product": "MegaGadget Pro"
+            },
+            "top_products": [
+                { "product": "MegaGadget Pro", "units_sold": 18000, "revenue": "$540,000" },
+                { "product": "UltraWidget 3000", "units_sold": 16000, "revenue": "$480,000" },
+                { "product": "SmartTool Z", "units_sold": 15000, "revenue": "$450,000" },
+                { "product": "NanoDevice X", "units_sold": 14000, "revenue": "$420,000" },
+                { "product": "EcoWidget Mini", "units_sold": 13000, "revenue": "$390,000" }
+            ],
+            "charts": [
+                {
+                    "title": "Sales by Region",
+                    "filename": "charts/sales_by_region_q3_2024.png",
+                    "description": "Bar chart showing total sales by region."
+                }
+            ],
+            "notes": [
+                "Data sourced from internal CRM",
+                "Analysis performed on October 15, 2024"
+            ]
+        },
+        "Q4": {
+            "title": "Sales Analysis Report – Q4 2024",
+            "date": "2024-12-15",
+            "summary": {
+                "total_sales": "$2.0M",
+                "top_region": "North America",
+                "best_selling_product": "UltraWidget 3000"
+            },
+            "top_products": [
+                { "product": "UltraWidget 3000", "units_sold": 20000, "revenue": "$600,000" },
+                { "product": "MegaGadget Pro", "units_sold": 18000, "revenue": "$540,000" },
+                { "product": "SmartTool Z", "units_sold": 17000, "revenue": "$510,000" },
+                { "product": "NanoDevice X", "units_sold": 16000, "revenue": "$480,000" },
+                { "product": "EcoWidget Mini", "units_sold": 15000, "revenue": "$450,000" }
+            ],
+            "charts": [
+                {
+                    "title": "Sales by Region",
+                    "filename": "charts/sales_by_region_q4_2024.png",
+                    "description": "Bar chart showing total sales by region."
+                }
+            ],
+            "notes": [
+                "Data sourced from internal CRM",
+                "Analysis performed on December 15, 2024"
+            ]
+        }
+    },
+
+    "2023": {
+        "Q3": {
+            "title": "Sales Analysis Report – Q3 2023",
+            "date": "2023-10-15",
+            "summary": {
+                "total_sales": "$1.5M",
+                "top_region": "Asia",
+                "best_selling_product": "MegaGadget Pro"
+            },
+            "top_products": [
+                { "product": "MegaGadget Pro", "units_sold": 15000, "revenue": "$450,000" },
+                { "product": "UltraWidget 3000", "units_sold": 14000, "revenue": "$420,000" },
+                { "product": "SmartTool Z", "units_sold": 13000, "revenue": "$390,000" },
+                { "product": "NanoDevice X", "units_sold": 12000, "revenue": "$360,000" },
+                { "product": "EcoWidget Mini", "units_sold": 11000, "revenue": "$330,000" }
+            ],
+            "charts": [
+                {
+                    "title": "Sales by Region",
+                    "filename": "charts/sales_by_region_q3_2023.png",
+                    "description": "Bar chart showing total sales by region."
+                }
+            ],
+            "notes": [
+                "Data sourced from internal CRM",
+                "Analysis performed on October 15, 2023"
+            ]
+        },
+        "Q4": {
+            "title": "Sales Analysis Report – Q4 2023",
+            "date": "2023-12-15",
+            "summary": {
+                "total_sales": "$2.0M",
+                "top_region": "North America",
+                "best_selling_product": "UltraWidget 3000"
+            },
+            "top_products": [
+                { "product": "UltraWidget 3000", "units_sold": 20000, "revenue": "$600,000" },
+                { "product": "MegaGadget Pro", "units_sold": 18000, "revenue": "$540,000" },
+                { "product": "SmartTool Z", "units_sold": 17000, "revenue": "$510,000" },
+                { "product": "NanoDevice X", "units_sold": 16000, "revenue": "$480,000" },
+                { "product": "EcoWidget Mini", "units_sold": 15000, "revenue": "$450,000" }
+            ],
+            "charts": [
+                {
+                    "title": "Sales by Region",
+                    "filename": "charts/sales_by_region_q4_2023.png",
+                    "description": "Bar chart showing total sales by region."
+                }
+            ],
+            "notes": [
+                "Data sourced from internal CRM",
+                "Analysis performed on December 15, 2023"
+            ]
+        }
+    }
+}
+

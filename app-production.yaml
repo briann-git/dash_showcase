@@ -1,0 +1,26 @@
+runtime: python311
+
+instance_class: F1
+
+# Environment variables - using Google Secret Manager for production
+env_variables:
+  SERVER_BASE_URL: "https://knowledge--1.nw.r.appspot.com"
+  GCP_PROJECT_ID: "knowledge--1"
+
+# Enable Secret Manager API access
+beta_settings:
+  cloud_build_timeout: 1600s
+
+# Static file handlers for data directory
+handlers:
+- url: /data
+  static_dir: data
+  secure: always
+
+# Default handler for the app
+- url: /.*
+  script: auto
+  secure: always
+
+# Entrypoint using main.py
+entrypoint: gunicorn -b :$PORT main:app
