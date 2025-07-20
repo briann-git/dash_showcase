@@ -1,5 +1,8 @@
 runtime: python311
 
+# Service name - creates a separate service within the same App Engine app
+service: dash-mcp-showcase
+
 instance_class: F1
 
 # Environment variables - using Google Secret Manager for production
