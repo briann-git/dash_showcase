@@ -3,7 +3,7 @@ import json
 import os
 import tempfile
 from unittest.mock import Mock, patch, mock_open
-from src.dash_mcp_showcase.processing_agent import ProcessingAgent
+from dash_mcp_showcase.processing_agent import ProcessingAgent
 
 
 class TestProcessingAgent:
@@ -30,7 +30,7 @@ class TestProcessingAgent:
         assert agent.model == "gpt-4o-mini"
         mock_openai.assert_called_once_with(api_key="test-key-123")
 
-    @patch('src.dash_mcp_showcase.processing_agent.ProcessingAgent._get_secret')
+    @patch('dash_mcp_showcase.processing_agent.ProcessingAgent._get_secret')
     def test_init_without_api_key(self, mock_get_secret):
         """Test initialization without API key (fallback mode)."""
         # Mock _get_secret to return None (no API key found)
@@ -42,8 +42,8 @@ class TestProcessingAgent:
         assert agent.model is None
         mock_get_secret.assert_called_once_with("openai-api-key")
 
-    @patch('src.dash_mcp_showcase.processing_agent.SECRET_MANAGER_AVAILABLE', True)
-    @patch('src.dash_mcp_showcase.processing_agent.secretmanager.SecretManagerServiceClient')
+    @patch('dash_mcp_showcase.processing_agent.SECRET_MANAGER_AVAILABLE', True)
+    @patch('dash_mcp_showcase.processing_agent.secretmanager.SecretManagerServiceClient')
     @patch.dict(os.environ, {"GCP_PROJECT_ID": "test-project"})
     def test_get_secret_from_secret_manager(self, mock_sm_client):
         """Test getting secret from Google Secret Manager."""
@@ -61,8 +61,8 @@ class TestProcessingAgent:
         assert result == "secret-api-key"
         mock_client.access_secret_version.assert_called_once()
 
-    @patch('src.dash_mcp_showcase.processing_agent.SECRET_MANAGER_AVAILABLE', True)
-    @patch('src.dash_mcp_showcase.processing_agent.secretmanager.SecretManagerServiceClient')
+    @patch('dash_mcp_showcase.processing_agent.SECRET_MANAGER_AVAILABLE', True)
+    @patch('dash_mcp_showcase.processing_agent.secretmanager.SecretManagerServiceClient')
     @patch.dict(os.environ, {"GCP_PROJECT_ID": "test-project", "OPENAI_API_KEY": "fallback-key"})
     def test_get_secret_fallback_to_env(self, mock_sm_client):
         """Test fallback to environment variable when Secret Manager fails."""
