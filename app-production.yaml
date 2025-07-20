@@ -27,3 +27,7 @@ handlers:
 
 # Entrypoint using main.py
 entrypoint: gunicorn -b :$PORT main:app
+
+automatic_scaling:
+  max_instances: 2
+  
